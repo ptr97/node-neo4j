@@ -1,0 +1,13 @@
+type Player {
+  firstName: String!,
+  lastName: String!,
+  height: Int!,
+  shirtNumber: Int!,
+  team: Team @relation(name: "PLAYS_FOR", direction: "OUT")
+}
+
+type Team {
+  code: String!,
+  name: String!,
+  players: [Player!] @relation(name: "PLAYS_FOR", direction: "IN")
+}
