@@ -1,8 +1,8 @@
 {
   "apps": [
     {
-      "name": "neo4j-graphql",
-      "script": "./neo4j-graphql/build/index.js",
+      "name": "node-neo4j",
+      "script": "./node-neo4j/build/index.js",
       "env": {
         "NEO4J_URI": "bolt://hobby-pbcalpaacoodgbkeijoceedl.dbs.graphenedb.com:24787",
         "NEO4J_USER": "piotr",
