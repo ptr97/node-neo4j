@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "neo4j-graphql",
+      "script": "./neo4j-graphql/build/index.js",
+      "env": {
+        "NEO4J_URI": "bolt://hobby-pbcalpaacoodgbkeijoceedl.dbs.graphenedb.com:24787",
+        "NEO4J_USER": "piotr",
+        "NEO4J_PASSWORD": "b.llrJswUYoLgD.T6EwK6ON5ywv5BCO",
+        "GRAPHQL_SCHEMA": "./schema.graphql",
+        "GRAPHQL_NEO4j_LISTEN_PORT": 3000,
+        "GRAPHQL_NEO4J_LISTEN_PATH": "/neo4j-graphql",
+        "API_HOST": "0.0.0.0"
+      }
+    }
+  ]
+}
